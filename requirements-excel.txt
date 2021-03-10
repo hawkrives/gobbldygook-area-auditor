@@ -5,13 +5,9 @@
 #    pip-compile --generate-hashes requirements-excel.in
 #
 et-xmlfile==1.0.1 \
-    --hash=sha256:614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b \
+    --hash=sha256:614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b
     # via openpyxl
-jdcal==1.4.1 \
-    --hash=sha256:1abf1305fce18b4e8aa248cf8fe0c56ce2032392bc64bbd61b5dff2a19ec8bba \
-    --hash=sha256:472872e096eb8df219c23f2689fc336668bdb43d194094b5cc1707e1640acfc8 \
-    # via openpyxl
-openpyxl==3.0.6 \
-    --hash=sha256:1a4b3869c2500b5c713e8e28341cdada49ecfcff1b10cd9006945f5bcefc090d \
-    --hash=sha256:b229112b46e158b910a5d1b270b212c42773d39cab24e8db527f775b82afc041 \
+openpyxl==3.0.7 \
+    --hash=sha256:46af4eaf201a89b610fcca177eed957635f88770a5462fb6aae4a2a52b0ff516 \
+    --hash=sha256:6456a3b472e1ef0facb1129f3c6ef00713cebf62e736cd7a75bcc3247432f251
     # via -r requirements-excel.in
